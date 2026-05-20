@@ -18,6 +18,7 @@ export default function NavBar({ name }) {
       <div className="container nav-shell">
         <a className="brand" href="#home">
           <span className="brand-mark">TJ</span>
+
           <span>
             <strong>{name}</strong>
             <small>Portfolio</small>
@@ -30,9 +31,22 @@ export default function NavBar({ name }) {
               {label}
             </a>
           ))}
+
+          <a
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
+            target="_blank"
+            rel="noreferrer"
+            className="resume-button"
+          >
+            Resume
+          </a>
         </nav>
 
-        <button className="menu-button" onClick={() => setOpen((v) => !v)} aria-label="Toggle navigation">
+        <button
+          className="menu-button"
+          onClick={() => setOpen((v) => !v)}
+          aria-label="Toggle navigation"
+        >
           {open ? <X size={20} /> : <Menu size={20} />}
         </button>
       </div>
@@ -40,10 +54,24 @@ export default function NavBar({ name }) {
       {open ? (
         <div className="mobile-nav container">
           {links.map(([label, href]) => (
-            <a key={href} href={href} onClick={() => setOpen(false)}>
+            <a
+              key={href}
+              href={href}
+              onClick={() => setOpen(false)}
+            >
               {label}
             </a>
           ))}
+
+          <a
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
+            target="_blank"
+            rel="noreferrer"
+            className="resume-button"
+            onClick={() => setOpen(false)}
+          >
+            Resume
+          </a>
         </div>
       ) : null}
     </header>

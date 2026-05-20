@@ -693,4 +693,25 @@ button {
   .footer-inner {
     padding: 18px 0;
   }
+  .resume-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #0f172a;
+  color: white !important;
+  font-weight: 600;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+}
+
+.resume-button:hover {
+  transform: translateY(-2px);
+  background: #1e293b;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.18);
+}
 }
