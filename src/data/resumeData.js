@@ -8,7 +8,7 @@ export const profile = {
   linkedin: 'https://linkedin.com/in/tarunjagadish',
   github: 'https://github.com/tarunjag28',
   summary:
-    'I’m Tarun Jagadish, a graduate student in Applied Data Science at USC with a strong interest in machine learning, computer vision, and intelligent optimization systems. I’ve developed solutions across logistics, analytics, and AI research — from vessel data automation and genetic algorithms to deep learning models for image detection and sentiment analysis.',
+    'Hi, I’m Tarun Jagadish — I build intelligent systems using machine learning, computer vision, and optimization.',
 };
 
 export const stats = [

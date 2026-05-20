@@ -18,7 +18,7 @@ export default function Hero({ profile, stats }) {
         <span className="pill">MACHINE LEARNING · COMPUTER VISION · OPTIMIZATION</span>
         <h1>{profile.summary}</h1>
         <p className="subtitle">
-          {profile.name} is an {profile.title.toLowerCase()} with a focus on {profile.subtitle.toLowerCase()}.
+          USC Applied Data Science graduate with experience across logistics automation, computer vision, analytics, and deep learning systems.
         </p>
 
         <div className="hero-meta">
