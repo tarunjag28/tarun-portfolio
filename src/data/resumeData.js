@@ -87,6 +87,7 @@ export const projects = [
     description:
       'Built a highly accurate CNN model for detecting AI-generated images, outperforming models like ResNet50 and InceptionV3.',
     category: 'Computer Vision',
+        href: "https://ieeexplore.ieee.org/abstract/document/10724589",
   },
   {
     title: 'Cross-lingual sentiment analysis for political tweets',
@@ -94,6 +95,7 @@ export const projects = [
     description:
       'Designed a framework for Urdu, transliterated Urdu, and English tweets that surpassed mBERT and RoBERTa.',
     category: 'NLP',
+    href: "https://ieeexplore.ieee.org/abstract/document/10480788",
   },
   {
     title: 'Emotion detection using a depth index',
@@ -101,6 +103,7 @@ export const projects = [
     description:
       'Developed an emotion detection system using a depth index for counseling, customer service, and market research applications.',
     category: 'Applied AI',
+    href: "https://ieeexplore.ieee.org/abstract/document/10434164",
   },
   {
     title: 'Computer vision-based waste sorting system',
@@ -108,6 +111,7 @@ export const projects = [
     description:
       'Created an automated waste-sorting system that achieved 93.20% accuracy in classifying organic and recyclable materials.',
     category: 'Automation',
+    href: "https://link.springer.com/chapter/10.1007/978-981-99-9524-0_10",
   },
 ];
 
